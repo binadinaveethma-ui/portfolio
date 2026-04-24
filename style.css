@@ -88,23 +88,19 @@ section {
 }
 
 .home {
-    margin-top: 2;
+   display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 2rem;
 }
 
 .home-img img {
     width: 20vw;
     border-radius: 50%;
     box-shadow: 0 0 10px var(--main-color);
-    .home-img img {
-    width: 20vw;
-    border-radius: 50%;
-    box-shadow: 0 0 10px var(--main-color);
     cursor: pointer;
     
 }
-    
-}
-
 .home-img img:hover {
     box-shadow: 0 0 25px var(--main-color);
                 0 0 35px var(--main-color);
@@ -245,7 +241,7 @@ display: flex;
 }
 .project-content h3 {
     font-size: 2.5rem;
-    line-height: 1.5 ;
+    line-height: 2 ;
     margin-top: 0 ;
     text-align: left;
 }
