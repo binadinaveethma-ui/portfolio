@@ -16,8 +16,8 @@
     --main-color: #043c74;
 }
 section {
-    min-height: auto; 
-    padding: 5rem 9% 2rem; 
+    min-height: 0; 
+    padding: 4rem 9% 1rem; 
 }
 
 html {
@@ -88,10 +88,9 @@ section {
 }
 
 .home {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    margin-top: 2rem;
+    margin-top: 0 !important;
+    min-height: 60vh !important; 
+    padding-top: 8rem !important;
 }
 
 .home-img img {
@@ -248,7 +247,8 @@ display: flex;
 }
 .project-content h3 {
     font-size: 2.5rem;
-    line-height: 3;
+    line-height: 1.5 !important;
+    margin-top: 0 !important;
     text-align: left;
 }
 .blog-img img {
